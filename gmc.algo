@@ -1,0 +1,76 @@
+#Algo decompte  caractere
+
+var i, longueur, cmpt : int 
+phrase : chaine
+
+Debut
+
+cmpt=0
+
+afficher : (saisir une phrase);
+saisir : (phrase)
+
+pour i de 0 à longueur phrase
+
+si i != '.' faire
+
+cmpt= cmpt+1
+
+fin si
+
+sinon faire 
+
+i+1
+afficher( "il y'a : " cmpt "caractere dans la phrase");
+
+fin Algo decompte caractere
+
+
+
+#Algo décompte mot
+
+var i, nmbre cmpt : int;
+
+phrase : chaine;
+
+Debut :
+compte = 0
+
+afficher (entrer une phrase);
+saisir ( phrase); 
+
+tant que i != "." faire i+1
+si i = " " 
+cmpt = cmpt+1
+
+afficher( "il y'a : " cmpt "mot dans cette phrase);
+
+fin algo decompte mot
+
+
+
+# algo decompte voyelle
+
+var i, nmbre, cmpt : int 
+phrase : chaine
+
+Debut
+
+cmpt=0
+
+afficher (entrer une phrase)
+saisir(phrase)
+
+tant que i !="."
+si i != ["a" ou "e" ou "i" ou "o" ou "u" ou "y"] faire
+
+i+1
+sinon faire
+
+cmpt = compte+1
+
+fin si
+
+afficher ("il y'a :" compte " voyelle dans la phrase")
+
+fin algo decompte voyelle;
